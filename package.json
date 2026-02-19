@@ -1,0 +1,14 @@
+{
+  "name": "taustro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev:web": "bunx astro dev --host 127.0.0.1 --port 4321",
+    "build:web": "bunx astro build"
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.5.4",
+    "@tauri-apps/api": "^2.10.1",
+    "astro": "^5.17.1"
+  }
+}
